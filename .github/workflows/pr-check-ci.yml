@@ -1,9 +1,9 @@
 # Used to merge master/feature branches with each other
 name: PR Check CI
 
-on:
-  schedule:
-    - cron: "*/10 * * * *"
+# on:
+#   schedule:
+#     - cron: "*/10 * * * *"
 
 jobs:
   pr-check-ci:
